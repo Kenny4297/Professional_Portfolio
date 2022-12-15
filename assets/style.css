@@ -21,7 +21,7 @@ header {
 }
 
 h1 {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     position: relative;
     padding-top: 30px;
 }
@@ -32,20 +32,20 @@ nav a {
 
 nav {
     display: inline-flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 70%;
 }
 
 nav ul li {
     list-style-type: none;
     font-size: 2rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 nav ul {
     display: inline-flex;
     justify-content: space-around;
-    border: 2px dotted purple;
+    /* border: 2px dotted purple; */
     width: 100%;
 }
 /* --------------------------------------------------- */
@@ -54,7 +54,6 @@ nav ul {
 .about-me {
     border: 3px yellow solid;
     display: inline-flex;
-    /* justify-content: space-evenly; */
     align-items: center;
     height: 400px;
 }
@@ -62,7 +61,6 @@ nav ul {
 .about-me p {
     border: 3px solid green;
     align-items: center;
-    /* margin-right: 40px; */
 }
 
 .favorite-quote h4 {
@@ -82,9 +80,8 @@ nav ul {
     border: 2px solid blue;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 10px;
-    /* position: relative; */
 }
   
 .grid-item {
@@ -93,7 +90,6 @@ nav ul {
     border: 2px solid gray;
     height: 200px;
     display: inline-block;
-    /* text-align: center; */
     position: relative;
     bottom: 0;
 }
@@ -121,11 +117,52 @@ nav ul {
 #grid-item-p {
     text-align: center;
     border: 2px solid orange; 
-    /* display: block; */
     margin: 150px auto;
     position: relative;
 }
 
+/* ---------------------------------------------------- */
+/* Contact me */
+.contact-me {
+    background-color: rgb(248, 204, 176);
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px
+}
+
+section h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section-name {
+    display: inline;
+    font-weight: bold;
+}
+
+.input-section {
+    /* border: 5px salmon solid; */
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+}
+
+button {
+    position: absolute;
+    bottom: 35px;
+    left: 210px;
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+.text-box {
+    width: 300px;
+}
 
 
 
