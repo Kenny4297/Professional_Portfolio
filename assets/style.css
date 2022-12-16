@@ -2,10 +2,13 @@
     margin: 10px;
 }
 
+body {
+    background: linear-gradient(.25turn, #f1dac4, #a69cac);
+}
+
 p {
     font-size: 1.25rem;
 }
-
 
 /* Header */
 .profile-pic {
@@ -17,49 +20,50 @@ p {
 header {
     display: flex;
     justify-content: space-around;
-    border: 2px solid purple;
 }
 
 h1 {
-    /* border: 2px solid yellow; */
     position: relative;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 
 nav a {
-    color: orange;
+    color: blue;
+    /* outline: 2px solid orange; */
 }
 
 nav {
     display: inline-flex;
-    /* border: 2px solid blue; */
     width: 70%;
 }
 
 nav ul li {
     list-style-type: none;
     font-size: 2rem;
-    /* border: 2px solid red; */
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    transform: scale(1.3);
 }
 
 nav ul {
     display: inline-flex;
     justify-content: space-around;
-    /* border: 2px dotted purple; */
     width: 100%;
 }
 /* --------------------------------------------------- */
 
 /* About me */
 .about-me {
-    border: 3px yellow solid;
+    /* border: 3px yellow solid; */
     display: inline-flex;
     align-items: center;
-    height: 400px;
+    max-height: 400px;
 }
 
 .about-me p {
-    border: 3px solid green;
+    /* border: 3px solid green; */
     align-items: center;
 }
 
@@ -68,26 +72,42 @@ nav ul {
     text-align: center;
 }
 
+.favorite-quote p {
+    color:rgb(243, 232, 225);
+    font-size: 1.1rem;
+}
+
 .favorite-quote {
     margin: 40px;
     width: 90%;
+    /* outline: 2px solid blue;  */
+    background-color: #a69cac;
+    border-radius: 5px;
+    /* height: 360px; */
+    min-height: 110%;
 }
 /* --------------------------------------------- */
 /* Work */
 
 .work {
     display: grid;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
 }
+
+h2 {
+    /* outline: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   
 .grid-item {
     background-color: blue;
     color: white;
-    border: 2px solid gray;
     height: 200px;
     display: inline-block;
     position: relative;
@@ -107,16 +127,78 @@ nav ul {
 .work-example-1 {
     grid-column: span 2;
     display: inline-block;
+    background-image: url(./images/space-banner-with-purple-planet-landscape_107791-6230.webp);
+}
+
+.work-example-1:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.work-example-2 p {
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.work-example-2 {
+    background-image: url(./images/nile-banner.jpg);
+}
+
+.work-example-2:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.work-example-3 {
+    background-image: url(./images/math-banner.jpg);
+}
+
+.work-example-3:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.work-example-4 {
+    background-image: url(./images/Krabs-dollar-Banner.jpeg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.work-example-4:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.work-example-4 h3 {
+    color: black;
+    background: rgb(194, 234, 232);
+    display: inline-block;
+}
+
+.work-example-5 {
+    background-image: url(./images/virtual_banner.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.work-example-5:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .grid-item-h3 {
     text-align: center;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
 }
 
 #grid-item-p {
     text-align: center;
-    border: 2px solid orange; 
+    /* border: 2px solid orange;  */
     margin: 150px auto;
     position: relative;
 }
@@ -124,24 +206,34 @@ nav ul {
 /* ---------------------------------------------------- */
 /* Contact me */
 .contact-me {
-    background-color: rgb(248, 204, 176);
-    text-align: center;
+    background: linear-gradient(.25turn, #e66465, #9198e5);
     padding-bottom: 30px;
-    padding-top: 10px
+    padding-top: 10px;
+    /* outline: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100px;
 }
 
-section h2 {
+footer h2 {
     font-size: 30px;
     font-weight: bold;
+
 }
 
-.section-name {
+.footer-name {
     display: inline;
     font-weight: bold;
 }
 
+footer {
+    height: 250px;
+    width: 40%;
+    margin: auto;
+}
+
 .input-section {
-    /* border: 5px salmon solid; */
     width: 500px;
     height: 100px;
     margin: 0 auto;
@@ -151,18 +243,81 @@ section h2 {
 }
 
 button {
-    position: absolute;
-    bottom: 35px;
-    left: 210px;
+    position: relative;
     width: 120px;
     height: 40px;
     background-color: black;
     color: white;
+    right: 10px;
 }
 
 .text-box {
     width: 300px;
+    /* width: 10%; */
 }
 
+/* Media Queries */
+/* Favorite quote disappears at 1390px */
+@media screen and (max-width: 1370px) {
+    .favorite-quote {
+        display: none;
+    }
+}
 
+/* About me section dips below the profile picture at 987px */
+@media screen and (max-width: 987px) {
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 400px;
+    }
+}
 
+/* 1100 -> Navigation li elements become max-width 100px; */
+@media screen and (max-width: 889px) {
+    header li a {
+        max-width: 100px;
+        position: relative;
+        right: 60px;
+        white-space: nowrap; 
+    }
+}
+
+/* 650px -> header li a gets smaller to prevent overlapping from h1 */
+@media screen and (max-width: 650px) {
+    header li a {
+        font-size: 27px;
+    }
+}
+
+/*.first-input-paragraph fontsize -> 15px with VH */
+@media screen and (max-width: 715px) {
+    .first-input-paragraph {
+        font-size: calc(15px + 0.19vw); /*This solution was given to me by a tutor back in July */
+    }
+}
+/* 1110 text boxes become smaller */
+
+@media screen and (max-width: 1110px) {
+    .text-box {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .text-box {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .text-box {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .text-box {
+        width: 100px;
+    } 
+}
