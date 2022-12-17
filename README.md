@@ -1,23 +1,16 @@
-Make a proper readme. 
+ # Kedgard's Professional HomePage
 
-It seems as if we still need the following:
-    -A screenshot of the work in the readme
-    -A readme with the link to the deployed GitPages
-    -When you turn in the assignment, provide two links:
-        1) The GitPages link
-        2) your repo url
+ ## What is this project?
+ This project was created to give a potential employer information about their current candidate by providing information on the individual, the individuals previous work, and a way to contact the individual.
 
-Module requirements: 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+## This project targeted a few objectives:
+* Presenting the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them.
+* The navigation brings the client to the respected sections on the page.
+* The developers first project's image is larger in appearance than their other work.
+* The screen size layout changes in accordance with the media used.
+
+The following is a link to the GitPages site:
+ [Kedgards' Portfolio Page]()
+
+The following is a screen shot of the final product:
+![Screenshot of the the developers website]()
