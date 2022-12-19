@@ -9,15 +9,9 @@
 </head>
 <body>
     <header>
-        <!-- WHEN I load their portfolio
-        THEN I am presented with the developer's name (h1), 
-        a recent photo or avatar (img)  -->
+        <!-- About Me -->
         <h1>Kedgard Cordero</h1>
 
-        <!-- nav => 
-        -when all the links are clicked in the nav they go to other parts of the document
-        -click on the link to the section about their work
-            scrolls to a section with titled images of the developer's applications -->
         <nav>
             <ul>
                 <li><a href="#about-me">About Me</a></li>
@@ -45,44 +39,49 @@
             </aside>
         </section>
 
-
+        <!-- My Work -->
         <h2 id="work">My Work</h2>
         <section class="work">
+
             <div class="grid-item work-example-1">
-                <h3 class="grid-item-h3">Name a planet</h3>
-                <p id="grid-item-p">React, MongoDB</p>
+                <a href="https://www.wikipedia.org/" target="_blank">
+                    <h3 class="grid-item-h3">Name a planet</h3>
+                    <p id="grid-item-p">React, MongoDB</p>
+                </a>
             </div>
 
             <div class="grid-item work-example-2">
-                <h3>Nile (amazon spoof)</h3>
-                <p>React, Express.JS</p>
+                <a href="https://www.amazon.com/ref=nav_logo" target="_blank">
+                    <h3>Nile (amazon spoof)</h3>
+                    <p>React, Express.JS</p>
+                </a>            
             </div>
 
             <div class="grid-item work-example-3">
-                <h3>Calculate this! (calculator app)</h3>
-                <p>Node.js, JavaScript</p>
+                <a href="https://play.google.com/store/apps/details?id=com.google.android.calculator&hl=en_US&gl=US&pli=1" target="_blank">
+                    <h3>Calculate this! (calculator app)</h3>
+                    <p>Node.js, JavaScript</p>
+                </a>    
             </div>
 
             <div class="grid-item work-example-4">
-                <h3>Phone Pay</h3>
-                <p>React, Flutter</p>
+                <a href="https://pay.google.com/gp/w/u/0/home/activity?sctid=2186774752475801" target="_blank">
+                    <h3>Phone Pay</h3>
+                    <p>React, Flutter</p>
+                </a>
             </div>
 
             <div class="grid-item work-example-5">
-                <h3>Virtual Reality Browser</h3>
-                <p>Unreal Engine</p>
+                <a href="https://webvr.info/" target="_blank">
+                    <h3>Virtual Reality Browser</h3>
+                    <p>Unreal Engine</p>
+                </a>
             </div>
 
         </section>
-
-        <!-- Section for my work
-        -I am presented with the developer's first application,
-            the application's image should be larger in size than the others
-
-        -I click on the images of the applications,
-            I take to that deployed application -->
         
     </main>
+    <!-- Contact me -->
     <footer class="contact-me" id="contact-me">
         <h2>Contact Me!</h2>
         <section class="input-section">
@@ -91,12 +90,8 @@
             <p class="footer-name">Email:</p><input class="text-box" type="text">
             <p><button>SEND</button></p>
         </section>
-        <!-- <h3>Created by: Kedgard</h3> -->
+
     </footer>
 
-
-    
-    <!-- GENERAL: WHEN I resize the page or view the site on various screens and devices
-        I am presented with a responsive layout that adapts to my viewport -->
 </body>
 </html>
