@@ -10,7 +10,7 @@
 * The screen size layout changes in accordance with the media used.
 
 The following is a link to the GitPages site:
- [Kedgards' Portfolio Page]()
+ [Professional Portfolio Final](https://github.com/Kenny4297/Professional_Portfolio)
 
 The following is a screen shot of the final product:
-![Screenshot of the the developers website]()
+![Screenshot](./assets/images/professiona-profile-screenshot.png)
