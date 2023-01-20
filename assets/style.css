@@ -338,13 +338,13 @@ button {
 /* 650px -> header li a gets smaller to prevent overlapping from h1 */
 
 
-/*.first-input-paragraph fontsize -> 15px with VH */
+/*.first-input-paragraph font size -> 15px with VH */
 @media screen and (max-width: 715px) {
     .first-input-paragraph {
         font-size: calc(15px + 0.19vw); /*This solution was given to me by a tutor back in July */
     }
 }
-/* 1110 text boxes become smaller */
+/* 1110 text boxes become smaller and smaller*/
 
 @media screen and (max-width: 1110px) {
     .text-box {
@@ -384,9 +384,6 @@ button {
         margin-bottom: 100px;
         column-gap: -10px;
     }
-
-
-
 }
 
 @media screen and (max-width: 420px) {
@@ -409,6 +406,3 @@ button {
     }
 }
 
-
-/* Contact Me at 600px */
-/* expand the size of the back ground  and center everything better. You may need to use smaller font as well */
